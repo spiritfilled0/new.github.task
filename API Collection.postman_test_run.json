@@ -1,0 +1,311 @@
+{
+	"id": "55d2bed6-3cef-4241-9bf5-9449c5bae6d9",
+	"name": "API Collection",
+	"timestamp": "2022-11-25T07:56:08.512Z",
+	"collection_id": "23450110-bf470521-049c-4232-8a94-4623d7bf703a",
+	"folder_id": 0,
+	"environment_id": "23450110-ea100f98-e2df-4d70-8167-a585c0dce014",
+	"totalPass": 36,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b2dd1367-289d-410b-b077-7a7b661b6dd8",
+			"name": "Get All Todo Entries",
+			"time": 219,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				226,
+				219
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "b6403be3-d108-4b41-8199-bf480fbc6d36",
+			"name": "Get All Entries",
+			"time": 264,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name have created string": true,
+				"Body matches string": true,
+				"apiVersion equals 6.3.8.0": true,
+				"title equals Fusio": true,
+				"paymentCurrency equals EUR": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name have created string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 4,
+					"fail": 0
+				},
+				"apiVersion equals 6.3.8.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"title equals Fusio": {
+					"pass": 2,
+					"fail": 0
+				},
+				"paymentCurrency equals EUR": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				311,
+				264
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name have created string": true,
+					"Body matches string": true,
+					"apiVersion equals 6.3.8.0": true,
+					"title equals Fusio": true,
+					"paymentCurrency equals EUR": true
+				},
+				{
+					"Status code should be 200": true,
+					"Status code name have created string": true,
+					"Body matches string": true,
+					"apiVersion equals 6.3.8.0": true,
+					"title equals Fusio": true,
+					"paymentCurrency equals EUR": true
+				}
+			]
+		},
+		{
+			"id": "817da0af-f6cc-4fe4-98c1-3e67a641cb7d",
+			"name": "Place a book order",
+			"time": 283,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code should be 201": true,
+				"Status code name have an ok string": true,
+				"created equals true": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 201": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name have an ok string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"created equals true": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				319,
+				283
+			],
+			"allTests": [
+				{
+					"Status code should be 201": true,
+					"Status code name have an ok string": true,
+					"created equals true": true,
+					"Body matches string": true
+				},
+				{
+					"Status code should be 201": true,
+					"Status code name have an ok string": true,
+					"created equals true": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "b894f676-14ab-4e21-9d31-7fc626fdb31a",
+			"name": "Register a member",
+			"time": 247,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				402,
+				247
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "769a533f-f6cb-4bd5-8c05-9d4fa12a7a2a",
+			"name": "Get all orders",
+			"time": 331,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name have OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name have OK string": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				249,
+				331
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name have OK string": true
+				},
+				{
+					"Status code should be 200": true,
+					"Status code name have OK string": true
+				}
+			]
+		},
+		{
+			"id": "e31ea27e-c899-44bc-aa16-4e619b5f2ba5",
+			"name": "Get an order",
+			"time": 334,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 201": true,
+				"Status code name have created string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 201": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name have created string": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				370,
+				334
+			],
+			"allTests": [
+				{
+					"Status code should be 201": true,
+					"Status code name have created string": true
+				},
+				{
+					"Status code should be 201": true,
+					"Status code name have created string": true
+				}
+			]
+		},
+		{
+			"id": "13db613d-1b85-44d5-b1cb-d039b2a5a4f8",
+			"name": "Delete an order",
+			"time": 951,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Status code name has string OK": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string OK": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				917,
+				951
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Status code name has string OK": true
+				},
+				{
+					"Status code is 401": true,
+					"Status code name has string OK": true
+				}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 5423,
+	"collection": {
+		"requests": [
+			{
+				"id": "b2dd1367-289d-410b-b077-7a7b661b6dd8",
+				"method": "GET"
+			},
+			{
+				"id": "b6403be3-d108-4b41-8199-bf480fbc6d36",
+				"method": "GET"
+			},
+			{
+				"id": "817da0af-f6cc-4fe4-98c1-3e67a641cb7d",
+				"method": "POST"
+			},
+			{
+				"id": "b894f676-14ab-4e21-9d31-7fc626fdb31a",
+				"method": "POST"
+			},
+			{
+				"id": "769a533f-f6cb-4bd5-8c05-9d4fa12a7a2a",
+				"method": "GET"
+			},
+			{
+				"id": "e31ea27e-c899-44bc-aa16-4e619b5f2ba5",
+				"method": "GET"
+			},
+			{
+				"id": "13db613d-1b85-44d5-b1cb-d039b2a5a4f8",
+				"method": "DELETE"
+			}
+		]
+	}
+}
